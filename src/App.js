@@ -28,7 +28,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" >
+        <Route path="/index.html/" >
           <Route index element={<ProtectedRoute>
             <Home />
           </ProtectedRoute>} />
